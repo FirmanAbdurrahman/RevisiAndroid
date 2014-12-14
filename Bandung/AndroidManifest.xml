@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bandung"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Firman Abdurrahman"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Menu"
+            android:label="Darurat Bandung" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Polisi"
+            android:label="Polisi" >
+        </activity>
+        <activity
+            android:name=".Pemadam"
+            android:label="Pemadam" >
+        </activity>
+        <activity
+            android:name=".Rumah_Sakit"
+            android:label="Rumah Sakit" >
+        </activity>
+        <activity
+            android:name=".Center"
+            android:label="Sentral Pelayanan Kepolisian" >
+        </activity>
+        <activity
+            android:name=".SenterWeb"
+            android:label="Peta Lokasi" >
+        </activity>
+        <activity
+            android:name=".Poldajabar"
+            android:label="Polda JaBar" >
+        </activity>
+        <activity
+            android:name=".Poldajabar_web"
+            android:label="Peta Lokasi" >
+        </activity>
+        <activity
+            android:name=".Barat"
+            android:label="Polresta Bandung Barat" >
+        </activity>
+        <activity
+            android:name=".Barat_web"
+            android:label="Peta Lokasi" >
+        </activity>
+    </application>
+
+</manifest>

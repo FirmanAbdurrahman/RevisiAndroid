@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bandung</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_polisi">Polisi</string>
+    <string name="title_activity_pemadam">Pemadam</string>
+    <string name="title_activity_ambulan">Ambulan</string>
+    <string name="title_activity_centerr">Centerr</string>
+    <string name="title_activity_senterr_web">SenterrWeb</string>
+    <string name="title_activity_senter_web">SenterWeb</string>
+    <string name="title_activity_poldajabar">Poldajabar</string>
+    <string name="title_activity_poldajabar_web">Poldajabar_web</string>
+    <string name="title_activity_barat">Barat</string>
+    <string name="title_activity_barat_web">Barat_web</string>
+
+</resources>

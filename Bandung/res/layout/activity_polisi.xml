@@ -1,0 +1,203 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/sentral"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sentral Pelayanan Kepolisian" />
+
+                <Button
+                    android:id="@+id/poldajabar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polda Jabar Pusat KomInfo" />
+                
+                <Button
+                    android:id="@+id/barat"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polresta Bandung Barat" />
+
+                <Button
+                    android:id="@+id/makeCall4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polresta Bandung Tengah\n(022) 7271115" />
+                
+                <Button
+                    android:id="@+id/makeCall5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polwiltabes Bandung\n(022) 4203500" />
+
+                <Button
+                    android:id="@+id/makeCall6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polsekta Andir\n(022) 6012062" />
+                
+                <Button
+                    android:id="@+id/makeCall7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polsekta Arcamanik\n(022) 7805022" />
+
+                <Button
+                    android:id="@+id/makeCall8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polsekta Astanaanyar\n(022) 5204769" />
+                
+                <Button
+                    android:id="@+id/makeCall9"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polsekta Babakan Ciparay\n(022) 6015345" />
+
+                <Button
+                    android:id="@+id/makeCall10"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polsekta Bandung Kidul\n(022) 7508122" />
+                
+                <Button
+                    android:id="@+id/makeCall11"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polsekta Bandung Kulon\n(022) 6011554" />
+
+                <Button
+                    android:id="@+id/makeCall12"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polresta Bandung Timur\n(022) 7800110" />
+                
+                <Button
+                    android:id="@+id/makeCall13"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polsekta Bandung wetan\n(022) 4202162" />
+
+                <Button
+                    android:id="@+id/makeCall14"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polsekta Bojongloa Kaler\n(022) 6037706" />
+                
+                <Button
+                    android:id="@+id/makeCall15"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polsekta Bojongloa Kidul\n(022) 5211082" />
+
+                <Button
+                    android:id="@+id/makeCall16"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polsekta Cibiru\n(022) 7810348" />
+                
+                <Button
+                    android:id="@+id/makeCall17"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polsekta Cibeunying Kaler\n(022) 2504127" />
+
+                <Button
+                    android:id="@+id/makeCall18"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polsekta Cibeunying Kidul\n(022) 7271128" />
+                
+                <Button
+                    android:id="@+id/makeCall19"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polsekta Cicadas\n(022) 7208467" />
+
+                <Button
+                    android:id="@+id/makeCall20"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polsekta Cicendo\n(022) 6011503" />
+                
+                <Button
+                    android:id="@+id/makeCall21"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polsekta Cidadap\n(022) 2013521" />
+
+                <Button
+                    android:id="@+id/makeCall22"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polsekta Coblong\n(022) 2502532" />
+                
+                <Button
+                    android:id="@+id/makeCall23"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polsekta Kiaracondong\n(022) 7312219" />
+
+                <Button
+                    android:id="@+id/makeCall24"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polsekta Lengkong\n(022) 7300958" />
+                
+                <Button
+                    android:id="@+id/makeCall25"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polsekta Margacinta\n(022) 7565727" />
+
+                <Button
+                    android:id="@+id/makeCall26"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polsekta Rancasari\n(022) 7511153" />
+                
+                <Button
+                    android:id="@+id/makeCall27"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polsekta Regol\n(022) 5202169" />
+
+                <Button
+                    android:id="@+id/makeCall28"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polsekta Sukasari\n(022) 2013179" />
+                
+                <Button
+                    android:id="@+id/makeCall29"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polsekta Sumur Bandung\n(022) 4235675" />
+                            
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

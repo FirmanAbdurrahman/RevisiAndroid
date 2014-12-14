@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Pemadam" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/makeCall1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Cicalengka\n(022) 7949113" />
+
+        <Button
+            android:id="@+id/makeCall2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Cimahi\n(022) 6658113" />
+
+        <Button
+            android:id="@+id/makeCall3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Ciparay\n(022) 5955992" />
+
+        <Button
+            android:id="@+id/makeCall4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Lembang\n(022) 2788292" />
+
+        <Button
+            android:id="@+id/makeCall5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Padalarang\n(022) 76913113" />
+
+        <Button
+            android:id="@+id/makeCall6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Soreang\n(022) 589 1113 " />
+    </LinearLayout>
+
+</RelativeLayout>
