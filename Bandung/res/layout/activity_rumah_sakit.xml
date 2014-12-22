@@ -9,21 +9,208 @@
     tools:context=".Rumah_Sakit" >
 
     <LinearLayout
+        android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical" >
 
-        <Button
-            android:id="@+id/makeCall1"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="xxxxx" />
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
 
-        <Button
-            android:id="@+id/makeCall2"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="xxx" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/makeCall1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RSU Advent\n022-2034386-9" />
+
+                <Button
+                    android:id="@+id/makeCall2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RSU Al-Ichsan\n022-5940872" />
+
+                <Button
+                    android:id="@+id/makeCall3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RSU Al-Islam\n022-7562046" />
+
+                <Button
+                    android:id="@+id/makeCall4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RS AMC\n022-7781630" />
+
+                <Button
+                    android:id="@+id/makeCall5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RSUD Astana Anyar\n022-5201139" />
+
+                <Button
+                    android:id="@+id/makeCall6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RS Bedah Halmahera\n022-4206061" />
+                
+                <Button
+                    android:id="@+id/makeCall7"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RS Bina Sehat\n022-5207964" />
+                
+                <Button
+                    android:id="@+id/makeCall8"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RSU Bungsu\n022-4231550" />
+                
+                <Button
+                    android:id="@+id/makeCall9"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RS Cahya Kawaluyan\n022-6803700" />
+                
+                <Button
+                    android:id="@+id/makeCall10"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RSUD Cibabat Cimahi\n022-6652025" />
+                
+                <Button
+                    android:id="@+id/makeCall11"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RS Dustina Cihami\n022-6633967" />
+                
+                <Button
+                    android:id="@+id/makeCall12"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RSUP Hasan Sadikin\n022-2034953-55" />
+                
+                <Button
+                    android:id="@+id/makeCall13"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RS Hermina Arcamanik\n022-87242525" />
+                
+                <Button
+                    android:id="@+id/makeCall14"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RS Ibu dan Anak Pasteur\n022-6072525" />
+                
+                <Button
+                    android:id="@+id/makeCall15"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RSU Immanuel\n022-5201656" />
+                
+                <Button
+                    android:id="@+id/makeCall16"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RSU Kebonjati\n022-6140658" />
+                
+                <Button
+                    android:id="@+id/makeCall17"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RSU Lanud Sulaiman\n022-5409608" />
+                
+                <Button
+                    android:id="@+id/makeCall18"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RSU Limijati\n022-420770" />
+                
+                <Button
+                    android:id="@+id/makeCall19"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RSUD	Majalaya\n022-5950035" />
+                
+                <Button
+                    android:id="@+id/makeCall20"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RS Mata Cicendo\n022-4231281" />
+                
+                <Button
+                    android:id="@+id/makeCall21"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RS Melinda\n022-4222788" />
+                
+                <Button
+                    android:id="@+id/makeCall22"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RSU Muhammadiyah\n022-7301062" />
+                
+                <Button
+                    android:id="@+id/makeCall23"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RS Paru Dr. H.A Rotinsulu\n022-2034446" />
+                
+                <Button
+                    android:id="@+id/makeCall24"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RSU Pindad\n022-7321964" />
+                
+                <Button
+                    android:id="@+id/makeCall25"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RSU Rajawali\n022-6011913" />
+                
+                <Button
+                    android:id="@+id/makeCall26"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RS Santosa\n022-4248222" />
+                
+                <Button
+                    android:id="@+id/makeCall27"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RSU Santo Borromeus\n022-2552000" />
+                
+                <Button
+                    android:id="@+id/makeCall28"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RSU Santo Yusuf\n022-7208172" />
+                
+                <Button
+                    android:id="@+id/makeCall29"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RSU Sartika Asih\n022-5229544" />
+                
+                <Button
+                    android:id="@+id/makeCall30"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RSUD Soreang\n022-5896590" />
+                
+                <Button
+                    android:id="@+id/makeCall31"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RSUD Ujung Berung\n022-7800017" />
+            </LinearLayout>
+        </ScrollView>
     </LinearLayout>
 
 </RelativeLayout>
